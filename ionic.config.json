@@ -1,0 +1,7 @@
+{
+  "name": "VirtualScrollBug",
+  "type": "angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
