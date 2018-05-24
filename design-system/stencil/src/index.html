@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html dir='ltr' lang='en'>
+
+<head>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0'>
+  <title>Design System - Stencil </title>
+  <link href='https://use.fontawesome.com/releases/v5.0.6/css/all.css' rel='stylesheet'>
+  <script src='/build/design-system.js'></script>
+  <link href='build/design-system.css' rel='stylesheet'>
+</head>
+
+<body>
+  <yoo-form-range></yoo-form-range>
+  <yoo-form-range id="aze"></yoo-form-range>
+</body>
+<script>
+  var comp = document.querySelector('yoo-form-range');
+  comp.min = 0;
+  comp.max = 100;
+  comp.value = 50;
+
+  var comp2 = document.querySelector('#aze');
+  comp2.min = 0;
+  comp2.max = 100;
+  comp2.double = true;
+  comp2.value = [30,80];  
+</script>
+
+</html>
